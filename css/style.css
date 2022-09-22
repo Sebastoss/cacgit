@@ -1,0 +1,77 @@
+.menu-green {
+    color: green;
+    text-decoration: none;
+}
+
+.menu-green:hover{
+    color: rgb(50, 255, 50);
+}
+
+.img-oscura{
+    filter: brightness(0.5); 
+}
+
+.carousel-pos-left{
+    left: 50%;
+}
+
+.background-cover{
+    object-fit: cover;
+    max-height:600px;
+}
+
+.boton-green{
+    background-color: #24ab24;
+}
+
+.boton-form{
+    background-color: #96C93E;
+    border: 0;
+}
+
+.boton-form:hover{
+    background-color: #76a523!important;
+}
+
+.carousel-texto{
+    width: 40%;
+}
+
+.card-color{
+    background-color: #5fb9c1;
+}
+
+#conocer-mas{
+    background-color: #33393F;
+}
+
+#honolulu-mas{
+    height: 400px;
+    background-image:url("../img/honolulu.jpg");
+    background-size: cover;
+}
+
+.centrar-texto{
+    text-align: center;
+}
+
+.subrayado{
+    text-decoration: underline dotted;
+}
+
+.font-small{
+    font-size: small;
+}
+
+.font-medium{
+    font-size:14px
+}
+
+#footer-contenido{
+    background-color: #1A4860;
+}
+
+#footer-contenido a{
+    color: white;
+    text-decoration: none;
+}
