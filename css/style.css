@@ -7,6 +7,14 @@
     color: rgb(50, 255, 50);
 }
 
+.menu-greenOn {
+    color: rgb(50, 255, 50);
+}
+
+.menu-greenOn:hover{
+    color: green;
+}
+
 .img-oscura{
     filter: brightness(0.5); 
 }
