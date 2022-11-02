@@ -75,3 +75,12 @@
     color: white;
     text-decoration: none;
 }
+
+#total {
+    border-radius: 3px;
+    color: #0d2c3c;
+}
+
+.card-body p {
+    text-align: center;
+}
