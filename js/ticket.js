@@ -1,12 +1,13 @@
 
 const TICKET = 200;
 
-let cantidad = document.getElementById("cantidad");
+
 let nombre = document.getElementById("nombre");
 let apellido = document.getElementById("apellido");
 let email = document.getElementById("email");
 let categoria = document.getElementById("categoria");
 let total = document.getElementById("total");
+let cantidad = document.getElementById("cantidad");
 
 
 function clickCategoria(cat){
@@ -14,8 +15,7 @@ function clickCategoria(cat){
 }
 
 function cantidadTicket(){
-    cantidad = +cantidad.value;
-    console.log(cantidad.value);
+    cantidad.value = parseInt(cantidad.value);
 }
 
 function borrarCampos(){
@@ -34,7 +34,7 @@ function calcularCosto(){
                 return total.innerHTML = "Error";
                 break; 
             }
-            return total.innerHTML = +(TICKET * cantidad) * 0.8;
+            return total.innerHTML = +(TICKET * cantidad.value) * 0.8;
             break;
             
         case "trainee":
@@ -42,7 +42,7 @@ function calcularCosto(){
                 return total.innerHTML = "Error";
                 break; 
             } 
-            return total.innerHTML = +(TICKET * cantidad) * 0.5;
+            return total.innerHTML = +(TICKET * cantidad.value) * 0.5;
             break; 
            
         case "junior":
@@ -50,7 +50,7 @@ function calcularCosto(){
                 return total.innerHTML = "Error";
                 break; 
             }
-            return total.innerHTML = +(TICKET * cantidad) * 0.15;
+            return total.innerHTML = +(TICKET * cantidad.value) * 0.15;
             break; 
             
         default:
