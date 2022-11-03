@@ -34,7 +34,7 @@ function calcularCosto(){
                 return total.innerHTML = "Error";
                 break; 
             }
-            return total.innerHTML = +(TICKET * cantidad.value) * 0.8;
+            return total.innerHTML = +(TICKET * cantidad.value) * 0.2;
             break;
             
         case "trainee":
@@ -50,7 +50,7 @@ function calcularCosto(){
                 return total.innerHTML = "Error";
                 break; 
             }
-            return total.innerHTML = +(TICKET * cantidad.value) * 0.15;
+            return total.innerHTML = +(TICKET * cantidad.value) * 0.85;
             break; 
             
         default:
