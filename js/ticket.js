@@ -10,9 +10,32 @@ let total = document.getElementById("total");
 let cantidad = document.getElementById("cantidad");
 
 
+let estudiante = document.getElementById("estudiante");
+let trainee = document.getElementById("trainee");
+let junior = document.getElementById("junior");
+
 function clickCategoria(cat){
     categoria.value = cat;
+
+    switch(cat){
+        case "estudiante":
+            estudiante.style.backgroundColor = "#b6d3ff";
+            trainee.style.backgroundColor = "";
+            junior.style.backgroundColor = "";
+            break;
+        case "trainee":
+            trainee.style.backgroundColor = "#c8f8e2";
+            estudiante.style.backgroundColor = "";
+            junior.style.backgroundColor = "";
+            break;
+        case "junior":
+            estudiante.style.backgroundColor = ""
+            trainee.style.backgroundColor = "";
+            junior.style.backgroundColor = "#ffe28a";
+            break;
+    }
 }
+
 
 function cantidadTicket(){
     cantidad.value = parseInt(cantidad.value);
