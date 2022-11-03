@@ -1,3 +1,4 @@
-Hola, este es un readme
+Trabajos prácticos de Codo a Codo.
 
-Super cambios
+1) TP de Bootstrap (Oradores)
+2) TP de JavaScript (Compra de tickets)
