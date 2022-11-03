@@ -115,7 +115,7 @@
             <div class="col-md-6 input-group-sm mt-3">
                 <label for="text" class="form-label">Categoría</label>
 
-                <select class="form-select" aria-label="categoria" id="categoria">
+                <select onchange="categoriaSeleccionBgC()" class="form-select" aria-label="categoria" id="categoria">
                     <option selected>Escoge una opción</option>
                     <option value="estudiante">Estudiante</option>
                     <option value="trainee">Trainee</option>
@@ -123,7 +123,7 @@
                   </select>
             </div>
             
-            <div class="col-12 mt-3 p-2 ps-3 pe-3 bg-info rounded" style="--bs-bg-opacity: .2">
+            <div class="col-12 mt-3 p-2 ps-3 pe-3 bg-info rounded border border-info" style="--bs-bg-opacity: .2">
                   Total a pagar: $ <span id="total">0</span> 
             </div>
             
